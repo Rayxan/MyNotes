@@ -1,1 +1,2 @@
-
+- O node_modules não precisa estar no diretório do projeto que vai ser enviado ao git, pois ele possui muitas pastas e muito pesado. Ele pode ser baixado depois pelo usuário digitando o comando $npm install
+- 
