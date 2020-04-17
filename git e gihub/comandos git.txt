@@ -1,0 +1,24 @@
+git init --> cria diretório
+git status --> verifica o status do projeto
+git add --> adiciona um arquivo ao git
+git add . --> adiciona todos arquivos alterados ao git
+git add --all --> adiciona todos arquivos alterados ao git
+git add -A --> adiciona todos arquivos alterados ao git
+
+git config --global user.name "nome" --> nome de quem está fazendo o commit
+git config --global user.email "email" --> nome de quem está fazendo o commit
+git config -l ou git config --list  --> verificar informações de quem está fazendo o commit
+
+git config --global core.excludesfile ~/.gitignore --> ignora tudo que está no .gitignore em todos os projetos criados na máquina
+
+git commit -m "que alteração foi feita" --> Fazer um commit
+git commit -a -m "alteração feita" -- vai adicionar uma arquivo ao git e já vai fazer o commit
+
+git log --> mostra todos os commits feitos
+git log--name-status --> mostra o que foi feito em cada commit (A = adicionado e M = modificado e D = deletado)
+
+git diff --> mostra as alterações feitas após o último commit
+git diff <file> --> mostra as alterações feitas em um único arquivo
+git diff staged --> mostra as alterações feitas comparado ao que está no git
+
+git rm -rf <nome do diretório/> --cached --> remove o diretório do git, mas não remove dos arquivos locais
