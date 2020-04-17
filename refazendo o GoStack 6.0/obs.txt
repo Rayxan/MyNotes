@@ -1,1 +1,3 @@
 - Método construtor vai ser o primeiro método executado toda vez que instanciamos um objeto a partir de uma classe 
+- new NomeDoMétodo() --> instancia um método
+- Pra fazer herança em Javascript é só adicionar após o método que tá recebendo a herança a palavra extends
