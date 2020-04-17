@@ -7,3 +7,7 @@ Classes:
 
 Comando:
 $ yarn dev -->  é um comando que faz o bundle ficar atualizando e traduzindo códigos pra versões antes do ES6
+
+Variáveis:
+const - um valor constante que não pode ser reatribuído, mas pode ser mutado, ou seja em objetos e vetores o seu valor pode ser alterado
+let - só podem ser usadas/alteradas dentro do seu escopo, ou seja das suas  chaves "{}"
