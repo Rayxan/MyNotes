@@ -1,3 +1,5 @@
 - Método construtor vai ser o primeiro método executado toda vez que instanciamos um objeto a partir de uma classe 
 - new NomeDoMétodo() --> instancia um método
-- Pra fazer herança em Javascript é só adicionar após o método que tá recebendo a herança a palavra extends
+- Pra fazer herança em Javascript é só adicionar após o método que tá recebendo a herança a palavra --> extends
+- Quando se cria um método construtor na classe filho, sempre é bom instanciar o contrutor da classe pai dentro do contrutor da classe filho, através do método --> super()
+- O método static é usado pra quando queremos passar alguma informação para ele, e ele retornar outra informação independente do restante da classe
