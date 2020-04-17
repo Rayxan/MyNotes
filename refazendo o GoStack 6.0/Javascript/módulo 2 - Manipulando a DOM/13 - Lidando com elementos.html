@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Aula 13</title>
+    </head>
+    <body>
+        <div id="app">
+            <input id="nome"/>
+        </div>
+
+        <script>
+            var linkElement = document.createElement('a');
+
+            linkElement.setAttribute('href', 'http://www.youtube.com');
+            linkElement.setAttribute('title','Site do youtube');
+
+            //coloca um título dentro do <a></a>
+            var textElement = document.createTextNode('Acessar youtube');
+            linkElement.appendChild(textElement);
+
+            //coloca o link dentro do div
+            var containerElement = document.querySelector('#app');
+            containerElement.appendChild(linkElement);
+
+            //remove o input
+            var inputElement = document.querySelector('#nome');
+            containerElement.removeChild(inputElement);
+        </script>
+    </body>
+</html>

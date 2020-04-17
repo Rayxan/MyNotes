@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Aula 6</title>
+    </head>
+    <body>
+        <script>
+            // function retornaSexo(sexo){
+            //     if(sexo ==='M'){
+            //         return 'Masculino';
+            //     }else if(sexo==='F'){
+            //         return 'Feminino';
+            //     }else{
+            //         return 'Outro';
+            //     }
+            // }
+
+            // var result = retornaSexo('F');
+            // console.log(result);
+            
+            function retornaSexo(sexo){
+                switch(sexo){
+                    case 'M':
+                        return 'Masculino';
+                    case 'F':
+                        return 'Feminino';
+                    default:
+                        return 'Outro';
+                }
+            }
+
+            var result = retornaSexo('F');
+            console.log(result);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+3 -vetor.indexOf(nomeDoElemento) - posição de um elemento em um vetor
+
+5 -for ((elemento - dê qualquer nome) of vetor){
+} - imprimir vetor com elementos separados mas de mesmo tipo 
+
+5 -join(", ") -usado pra printar os elementos do vetor sendo separados pelo caracter especificado 

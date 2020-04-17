@@ -1,0 +1,43 @@
+<!--Imprime quadrados na tela e muda a cor dos quadrados após passar o mouse em cima-->
+<html>  
+    <head>
+        <meta charset = "utf-8"/>
+        <title>Exercício 1</title>
+    </head>
+    <body>
+
+        <button id="botao">Gerar Quadrado</button>
+
+        <div id="boxes"></div>
+
+        <script>
+            function getRandomColor(){
+                var letters = "0123456789ABCDEF";
+                var color = "#";
+                for(var i=0;i<6;i++){
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+                return color;
+            }
+
+            var btnElement = document.getElementById('botao');
+            var boxElement = document.getElementById('boxes');
+            
+            btnElement.onclick = function(){
+                var box = document.createElement('div');
+
+                box.style.width = 100;
+                box.style.height = 100;
+                box.style.backgroundColor = '#f00';
+
+                box.onmouseover = function(){
+                    box.style.backgroundColor = getRandomColor();
+                }
+
+                boxElement.appendChild(box);
+            };
+
+   
+        </script>
+    </body>
+</html>

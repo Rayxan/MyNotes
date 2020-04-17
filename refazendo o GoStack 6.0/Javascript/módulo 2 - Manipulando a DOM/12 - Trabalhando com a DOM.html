@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset = "utf-8"/>
+        <title>Aula 12</title>
+    </head>
+    <body>
+        <div id="app">
+            <input type="text" name="nome" id="nome" class ="nome"/>
+            <button class="botao">Adicionar</button>
+            <br>
+            <input type="text" name="nome2" id="nome2"/>
+            <button class="botao2">Adicionar funcional</button>
+
+        </div>
+        <script>
+            var inputElement = document.getElementsByClassName('nome')[0];
+
+            console.log(inputElement);
+            //com getElementsById não retorna um vetor, diferentemente do
+            //getElementsByClassName e getElementsByTagName
+            
+            //-------------------------------------------------
+            
+            var inputElement2 = document.querySelectorAll('input[name=nome]');
+            console.log(inputElement2);
+
+            //querySelector somente retornará um elemento
+            //querySelectorAll irá retornar todos os elementos do tipo especificado
+        
+            var btnElement = document.querySelector('button.botao');
+
+            btnElement.onclick = function(){
+                alert('Botão Pressionado');
+            }
+
+            //-------------------------------------------------
+
+
+            var inputElement3 = document.querySelector('input[name=nome2]');
+            var btnElement2 = document.querySelector('button.botao2');
+
+            btnElement2.onclick = function(){
+                var text = inputElement3.value;
+
+                alert(text);
+            }
+        </script>
+    </body>
+</html>

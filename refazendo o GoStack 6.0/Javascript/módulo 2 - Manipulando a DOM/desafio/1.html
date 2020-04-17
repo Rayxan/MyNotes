@@ -1,0 +1,28 @@
+<!--Imprime quadrados vermelhos na tela, um abaixo do outro-->
+<html>  
+    <head>
+        <meta charset = "utf-8"/>
+        <title>Exercício 1</title>
+    </head>
+    <body>
+
+        <button id="botao">Gerar Quadrado</button>
+
+        <div id="boxes"></div>
+
+        <script>
+            var btnElement = document.getElementById('botao');
+            var boxElement = document.getElementById('boxes');
+            
+            btnElement.onclick = function(){
+                var box = document.createElement('div');
+
+                box.style.width = 100;
+                box.style.height = 100;
+                box.style.backgroundColor = '#f00';
+
+                boxElement.appendChild(box);
+            };  
+        </script>
+    </body>
+</html>
