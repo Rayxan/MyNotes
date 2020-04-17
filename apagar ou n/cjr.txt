@@ -1,0 +1,25 @@
+Tecnologias:
+-front - react 
+-front react native (pra aplicativos)
+-back - ruby on rails
+
+eventos:
+-dia de codar
+-enej
+
+depois do trainee vc é alocado em um núcleo
+
+BOPE
+
+Ensinadas no trainee:
+scrum
+git
+html
+css
+reactive native
+1 hora de meia de aula
+
+
+processo trainee: 12:30 ás 14:00
+3 aulas semanais
+reunião geral toda sexta 
