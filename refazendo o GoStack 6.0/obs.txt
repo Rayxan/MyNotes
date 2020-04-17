@@ -1,0 +1,1 @@
+- Método construtor vai ser o primeiro método executado toda vez que instanciamos um objeto a partir de uma classe 
