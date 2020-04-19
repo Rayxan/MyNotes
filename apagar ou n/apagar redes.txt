@@ -1,37 +1,39 @@
-Kurose 6° ou 7° edição
+Dar uma olhada nesse site : https://www.ietf.org
+
+Kurose 6Â° ou 7Â° ediÃ§Ã£o
 Linux - C e C++
 Python
 professora recomenda c++ e python
 
 
-Implementação usando sockets (procurar bibliotecas e estudar)
+ImplementaÃ§Ã£o usando sockets (procurar bibliotecas e estudar)
 
-Linux é mais recomendável para a disciplina
+Linux Ã© mais recomendÃ¡vel para a disciplina
 Ferramenta de trafico de redes Wireshark
 
-Slides são suporte a disciplina, pra estudar tem que usar o livro
+Slides sÃ£o suporte a disciplina, pra estudar tem que usar o livro
 
 -------------------------------------------------------
 Aula 1
 
 -Mais sobre Internet standards: www.ietf.org
--núcleo de rede(não tem sistemas finais), rede de borda(tem sistemas finais e núcleo interno), rede de acesso
--servidor = host que atende serviços
+-nÃºcleo de rede(nÃ£o tem sistemas finais), rede de borda(tem sistemas finais e nÃºcleo interno), rede de acesso
+-servidor = host que atende serviÃ§os
 
 -R= rate = taxa
 -taxa = bits por segundo
 -pacote = grupo de bits a serem transmitidos
--maior a taxa do enlace ==> menor o tempo de transmissão dos meus dados
--conjunto de pacotes = informação de uma aplicação
+-maior a taxa do enlace ==> menor o tempo de transmissÃ£o dos meus dados
+-conjunto de pacotes = informaÃ§Ã£o de uma aplicaÃ§Ã£o
 
-Exercícios
--ler o capitulo o capitulo 1 do Kurose (7a ou 6a edição)
--Capitulo introdutório (outros livros)
--instalar o Wireshark no computador, e se possível, usar o computador em dual boot para quem usa windows
+ExercÃ­cios
+-ler o capitulo o capitulo 1 do Kurose (7a ou 6a ediÃ§Ã£o)
+-Capitulo introdutÃ³rio (outros livros)
+-instalar o Wireshark no computador, e se possÃ­vel, usar o computador em dual boot para quem usa windows
 
--próxima quarta terá uma lista de exercícios
--na próxima segunda, mesmo horário, mesmo link, teremos a aula de continuação do capítulo 1
--lista de exercícios para fazer no moodle e material complementar para entender a parte de história da internet
+-prÃ³xima quarta terÃ¡ uma lista de exercÃ­cios
+-na prÃ³xima segunda, mesmo horÃ¡rio, mesmo link, teremos a aula de continuaÃ§Ã£o do capÃ­tulo 1
+-lista de exercÃ­cios para fazer no moodle e material complementar para entender a parte de histÃ³ria da internet
 
 Revisar os seguintes conceitos:
--conceitos de hoje : internet, núcleo de rede, borda de rede, rede de acesso, comutação de pacotes, atraso de transmissão
+-conceitos de hoje : internet, nÃºcleo de rede, borda de rede, rede de acesso, comutaÃ§Ã£o de pacotes, atraso de transmissÃ£o
