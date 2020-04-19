@@ -15,5 +15,5 @@ const usuario = {
 };
 
 const usuario2 = {...usuario, nome: 'Jojo'};
-
+// o SPREAD pega todo o objeto e substitui o nome
 console.log(usuario2);
