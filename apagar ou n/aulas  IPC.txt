@@ -1,0 +1,18 @@
+Aula 1:
+-o primeiro livro é top
+-pesquisar sobre o google code jam
+-estudar ios::sync_with_stdio(false)
+-livro thinking in c++ bruce eckel
+
+Aula 2:
+- fazer de 100 a 150 problemas iniciantes do uri
+- aprender python 3
+- não usar == em ponto flutuante(olhar vídeo)
+-AtCoder é um site bom
+
+Aula 4:
+-ver o início da aula 04 e pesquisar mais em como usar o AtCoder
+- Code Forces, AtCoder e o URI, são essenciais para início de estudos.
+
+Aula 5
+
