@@ -16,3 +16,7 @@ Aula 4:
 
 Aula 5
 
+https://onlinejudge.org - os campeões usavam 
+getline para quado há uma quebra de linha - pesquisar como usar - rever a live
+cin.ignore - pesquisar - rever a live 
+istringstream - pesquisar como usar - rever a live
