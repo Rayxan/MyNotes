@@ -1,0 +1,8 @@
+<h1></h1>
+<!-- h - header, do 1 ao 6. Para sites é recomendado utilizar somente até o h3/h4 -->
+
+<p></p>
+<!-- tag de parágrafo -->
+
+<meta charset="utf-8"> <!--Tag para reconhecer as acentuaçes na sua aplicação-->
+<!--OBS: tags que n necessitam de algo escrito no meio, não precisam ser fechadas-->
