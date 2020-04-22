@@ -1,0 +1,21 @@
+/*Se a imagem a ser usada em url(diretório/imagem) for pequena, ela é alargada*/
+body{
+    color: blue;
+    font-family: "Lucida Sans Unicode","Lucida Grande", Arial, sans-serif;
+}
+h1{
+    color: white;
+    background-image:url(img/sobre-background.jpg);
+}
+h2{
+    border-bottom: 2px solid #333333;
+}
+figure{
+    color: black; /*cor da legenda*/
+    background-color: #f2eded;
+    text-align: center;
+    border: 1px dotted black
+}
+figcaption{
+    font-style: italic;
+}
