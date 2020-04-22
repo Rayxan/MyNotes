@@ -1,8 +1,7 @@
-//Questão 2
 const usuarios = [
-    {nome: 'Diego', idade: 23, empresa: 'Rocketseat'},
-    {nome: 'Gabriel', idade: 15, empresa: 'Rocketseat'},
-    {nome: 'Jesus', idade: 30, empresa: 'Céu'},
+    { nome: 'Diego', idade:23, empresa: 'Rocketseat'},
+    { nome: 'Gabriel', idade:15, empresa: 'Rocketseat'},
+    { nome: 'Lucas', idade:30, empresa: 'Facebook'},
 ];
 
 //2.1
@@ -11,22 +10,18 @@ console.log(idades);
 console.log("\n");
 
 //2.2
-const rocketseat18 = usuarios.filter(
-    usuario => usuario.empresa === "Rocketseat" && usuario.idade >= 18
-);
+const rocketseat18 = usuarios.filter(usuario => usuario.empresa === "Rocketseat" && usuario.idade >= 18);
 console.log(rocketseat18);
 console.log("\n");
 
 //2.3
-const amazon = usuarios.find(
-    usuario => usuarios.empresa === "Amazon"
-);
-console.log(amazon);
-console.log("\n");  
+const google = usuarios.find(usuario => usuario.empresa === "Google");
+console.log(google);
+console.log("\n");
 
 //2.4
-const dobro = usuarios
-    .map(usuario => ({...usuario, idade: usuario.idade * 2})) // O SPREAD está sendo usado aqui pra pegar todos os valores dos objetos
-    .filter(usuario => usuario.idade <= 50);                  // em cada posição no vetor e substituir a idade por idade*2
+const calculo = usuarios.map(usuario => ({...usuario, idade: usuario.idade *2})).filter(usuario => usuario.idade <= 50);
+    // O SPREAD está sendo usado aqui pra pegar todos os valores dos objetos
+    //// em cada posição no vetor e substituir a idade por idade*2.
 
-console.log(dobro);
+console.log(calculo);
