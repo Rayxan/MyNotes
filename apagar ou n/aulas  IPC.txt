@@ -21,3 +21,7 @@ getline para quado há uma quebra de linha - pesquisar como usar - rever a live
 cin.ignore - pesquisar - rever a live 
 istringstream - pesquisar como usar - rever a live
 busca binária em c++: binary_search(), lower_bound e upper_bound
+
+Aula 6
+
+https://projecteuler.net - só problemas de matemática
