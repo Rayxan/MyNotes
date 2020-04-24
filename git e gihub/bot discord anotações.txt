@@ -1,0 +1,3 @@
+${client.users.size} --> número de membros que tem em todos os servidores que seu bot está 
+${client.channels.size} --> número de canais
+${clinet.guilds.size} --> número de servidores
