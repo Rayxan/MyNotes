@@ -29,4 +29,4 @@ https://projecteuler.net - só problemas de matemática
 Aula 7
 
 https://uhunt.onlinejudge.org
-
+aprender a analizar a complexidade 
