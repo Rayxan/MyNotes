@@ -34,4 +34,4 @@ aprender a analizar a complexidade
 Aula 8
 
 https://www.a2oj.com --------> fazer os 100 de menos de 1300 de rank e os 200 extras 
-
+a
