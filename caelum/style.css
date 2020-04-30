@@ -36,3 +36,7 @@ p{
     text-indent: 15px; /*tamanho da margem inicial do parágrafo*/
     text-align: justify;
 }
+/*Seletor de id começa com #*/    
+#dife{
+    color: green;
+}
