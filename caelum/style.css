@@ -37,6 +37,6 @@ p{
     text-align: justify;
 }
 /*Seletor de id começa com #*/    
-#dife{
+#dife, #hist{
     color: green;
 }
