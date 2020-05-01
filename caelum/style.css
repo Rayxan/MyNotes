@@ -1,7 +1,23 @@
+/*OBS:*/
+
 /*RGB --> #333333 ||  RGB alpha --> rgba(33,33,33,0.5)  -->utilizado pra usar transparência*/
 /*padding --> respiro interno*/
 /*margin --> respiro externo*/
 
+/*nos seletores de filhos, podemos selecionar mais de 1 filho, ex:
+footer a, footer p{
+    color: black;
+}
+Também pode ser usado pra alterar algo dentro de um filho, ex:
+aqui ele vai alterar a cor do strong que está dentro da tag <a> que está dentro de <footer>
+footer a strong{  
+    color:red;
+}
+
+pesquisar como dar resize e colocar a largura da imagem em 100% pra poder alterar o tamanho da imagem pela <figure>
+
+*/
+/*--------------------------------------------------------------------------------------------------------*/
 body{
     color: black;
     font-family: "Lucida Sans Unicode","Lucida Grande", Arial, sans-serif;
@@ -23,9 +39,18 @@ figure{
     color: black; /*cor da legenda*/
     background-color: #f2eded;
     text-align: center;
-    border: 1px dotted black;
+    border: 1px solid gray;/*margem pontilhada ao redor das imagens*/
     padding: 15px;
     margin: 30px;
+}
+#centro-dist{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+#familia{
+    float: right;
+    margin: 0 0 10px 10px;
 }
 figcaption{
     font-style: italic;
@@ -38,5 +63,15 @@ p{
 }
 /*Seletor de id começa com #*/    
 #dife, #hist{
-    color: green;
+    color: brown;
+}
+footer{
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+footer img{
+    margin-right: 30px;
+    vertical-align: middle; /*coloca a imagem no meio da linha*/
+    width: 94px;
 }
