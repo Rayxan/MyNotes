@@ -1,4 +1,4 @@
-/*OBS:*/
+/*OBS:*/ Pesquisar sobre arquitetura de pastas do CSS
 
 /*RGB --> #333333 ||  RGB alpha --> rgba(33,33,33,0.5)  -->utilizado pra usar transparência*/
 /*padding --> respiro interno*/
@@ -16,7 +16,32 @@ footer a strong{
 
 pesquisar como dar resize e colocar a largura da imagem em 100% pra poder alterar o tamanho da imagem pela <figure>
 
+
+background-position: x y        --------------->x
+                                |
+                                |
+                                ^ 
+                                y
+
+
+reset.css
+<obrigatório e tem que ser referenciado no html, antes de todas as outras referências relacionadas a css>
+O arquivo reset.css é para seu site ser o mesmo em todos navegadores(muito útil em projetos grandes)
+
+display:block, características:(aula 4 2:18)
+-usa a linha toda
+-altura é definida pelo conteúdo (ex: texto, etc)
+-width
+-height
+-não da pra colocar um elemento do lado por padrão (há formar é claro)
 */
+
+display:inline ---> da pra colocar tudo na mesma linha 
+-largura e altura são definidas pelo conteúdo
+-os elementos ficam um do lado do outro
+-não width
+-não high
+-comportamento de uma palavra
 /*--------------------------------------------------------------------------------------------------------*/
 body{
     color: black;
@@ -43,11 +68,13 @@ figure{
     padding: 15px;
     margin: 30px;
 }
+/*Seletor de id começa com #*/
 #centro-dist{
     margin-left: auto;
     margin-right: auto;
     width: 550px;
 }
+/*Seletor de id começa com #*/
 #familia{
     float: right;
     margin: 0 0 10px 10px;
@@ -61,9 +88,9 @@ p{
     text-indent: 15px; /*tamanho da margem inicial do parágrafo*/
     text-align: justify;
 }
-/*Seletor de id começa com #*/    
-#dife, #hist{
-    color: brown;
+/*Seletor de id começa com . */    
+.subTitle{
+    color: gray;
 }
 footer{
     color: #777;
