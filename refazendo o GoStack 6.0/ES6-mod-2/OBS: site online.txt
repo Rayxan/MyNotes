@@ -1,9 +1,10 @@
 Observeções:
 
-São necessárias algumas incrementações e alterações pra quando o seu projeto for lançado online
+-São necessárias algumas incrementações e alterações pra quando o seu projeto for lançado online
 
-Como o webpack dev server embute o arquivo bundle.js, algumas alterações são necessárias pois o
-bundle.js deve estar presente na pasta do projeto quando ele for lançado online:
+-Como o webpack dev server embute o arquivo bundle.js sem precisar ele estar presente na pasta do projeto, 
+algumas alterações são necessárias pois o bundle.js deve estar presente na pasta do projeto quando ele 
+for lançado online:
 
 -Ir no package.json > scripts e criar o comando:
 
