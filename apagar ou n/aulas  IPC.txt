@@ -38,5 +38,5 @@ a
 
 Aula 9
 
-leet code
+leet code (bom pra treinar pra entrevistas)
 Fazer os 2 projetos feitos duarante a aula e colocar no github com alterações(menus e etc)
