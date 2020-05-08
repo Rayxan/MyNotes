@@ -5,14 +5,14 @@ const minhaPromise = () => new Promise((resolve, reject) => {
 
 //Sem arrow funct
 async function executaPromise(){
-        console.log(await minhaPromise());
+        console.log(await minhaPromise()); //só executa a próxima linha depois que essa linha é executada
         console.log(await minhaPromise());
         console.log(await minhaPromise());
 }
 
 //Com arrow funct
 const executaPromise2 = async () => {
-    console.log(await minhaPromise());
+    console.log(await minhaPromise()); //só executa a próxima linha depois que essa linha é executada
     console.log(await minhaPromise());
     console.log(await minhaPromise());
 };
