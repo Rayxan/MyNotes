@@ -1,24 +1,24 @@
-git init --> cria diretório
+git init --> cria diretÃ³rio
 git status --> verifica o status do projeto
 git add --> adiciona um arquivo ao git
 git add . --> adiciona todos arquivos alterados ao git
 git add --all --> adiciona todos arquivos alterados ao git
 git add -A --> adiciona todos arquivos alterados ao git
 
-git config --global user.name "nome" --> nome de quem está fazendo o commit
-git config --global user.email "email" --> nome de quem está fazendo o commit
-git config -l ou git config --list  --> verificar informações de quem está fazendo o commit
+git config --global user.name "nome" --> nome de quem estÃ¡ fazendo o commit
+git config --global user.email "email" --> nome de quem estÃ¡ fazendo o commit
+git config -l ou git config --list  --> verificar informaÃ§Ãµes de quem estÃ¡ fazendo o commit
 
-git config --global core.excludesfile ~/.gitignore --> ignora tudo que está no .gitignore em todos os projetos criados na máquina
+git config --global core.excludesfile ~/.gitignore --> ignora tudo que estÃ¡ no .gitignore em todos os projetos criados na mÃ¡quina
 
-git commit -m "que alteração foi feita" --> Fazer um commit
-git commit -a -m "alteração feita" -- vai adicionar uma arquivo ao git e já vai fazer o commit
+git commit -m "que alteraÃ§Ã£o foi feita" --> Fazer um commit
+git commit -a -m "alteraÃ§Ã£o feita" -- vai adicionar uma arquivo ao git e jÃ¡ vai fazer o commit
 
 git log --> mostra todos os commits feitos
 git log--name-status --> mostra o que foi feito em cada commit (A = adicionado e M = modificado e D = deletado)
 
-git diff --> mostra as alterações feitas após o último commit
-git diff <file> --> mostra as alterações feitas em um único arquivo
-git diff staged --> mostra as alterações feitas comparado ao que está no git
+git diff --> compara o Working Directory com o Staging Area
+git diff <file> --> mostra as alteraÃ§Ãµes feitas em um Ãºnico arquivo
+git diff staged --> compara o Staging Area com o .git directory(RepositÃ³rio)
 
-git rm -rf <nome do diretório/> --cached --> remove o diretório do git, mas não remove dos arquivos locais
+git rm -rf <nome do diretÃ³rio/> --cached --> remove o diretÃ³rio do git, mas nÃ£o remove dos arquivos locais
