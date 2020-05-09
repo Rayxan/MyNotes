@@ -2,7 +2,7 @@ git init --> cria diretório
 git status --> verifica o status do projeto
 git add --> adiciona um arquivo ao git
 git add . --> adiciona todos arquivos alterados ao git
-git add --all --> adiciona todos arquivos alterados ao git
+git add --all --> adiciona todos arquivos alterados ao git (modificações, alterações e deleções)
 git add -A --> adiciona todos arquivos alterados ao git
 
 git config --global user.name "nome" --> nome de quem está fazendo o commit
