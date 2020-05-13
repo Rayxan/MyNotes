@@ -1,4 +1,9 @@
 mkdir <nome da pasta> - cria pasta 
-touch <nome do arquivo> - cria arquivo
+touch <nome do arquivo> - cria arquivo  
 rm <nome do arquivo> - apaga arquivo
-rm -r <nome do diret�rio> - apaga um diret�rio
+rm -r <nome do diretório> - apaga um diretório
+pwd - mostra em quais diretórios vc entrou
+echo "hello world" > a.txt - escreve a frase em um arquivo a.txt já criado anteriormente
+echo "jojo e dio" >> a.txt - escreve abaixo da última linha escrita
+cat a.txt - mostra o que tem dentro do arquivo
+
