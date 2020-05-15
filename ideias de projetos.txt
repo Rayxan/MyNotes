@@ -1,1 +1,3 @@
-Fazer um projeto que busca a um usuario do github e retorna a descrição dele e um link pra acessar seus repositórios (Módulo 4. Aplicação com ES6+)
+-Fazer um projeto que busca a um usuario do github e retorna a descrição dele e um link pra acessar seus repositórios (Módulo 4. Aplicação com ES6+)
+
+-Fazer opção de Escolher a palavra na FORCA, outra opção de sortear a palavra e criar um rank
