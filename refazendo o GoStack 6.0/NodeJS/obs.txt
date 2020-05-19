@@ -1,0 +1,1 @@
+o package.json serve para guardar a informação das dependências do nosso projeto 
