@@ -18,7 +18,7 @@ git log --> mostra todos os commits feitos
 git log--name-status --> mostra o que foi feito em cada commit (A = adicionado e M = modificado e D = deletado)
 
 git diff --> compara o Working Directory com o Staging Area
-git diff <file> --> mostra as alterações feitas em um único arquivo
-git diff staged --> compara o Staging Area com o .git directory(Repositório)
+git diff file.ext --> mostra as alterações feitas em um único arquivo
+git diff --staged --> compara o Staging Area com o .git directory(Repositório)
 
 git rm -rf <nome do diretório/> --cached --> remove o diretório do git, mas não remove dos arquivos locais
