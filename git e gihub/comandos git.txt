@@ -10,14 +10,21 @@ git add -A --> adiciona todos arquivos alterados ao git
 git config --global user.name "nome" --> nome de quem está fazendo o commit
 git config --global user.email "email" --> nome de quem está fazendo o commit
 git config -l ou git config --list  --> verificar informações de quem está fazendo o commit
+git config -e --> para alterar o core editor do (vim) para o (code --wait)
+git config --global -e --> se o comando de cima não der certo, usar este
+git congig core.editor --> saber qual é o editor base
 
 git config --global core.excludesfile ~/.gitignore --> ignora tudo que está no .gitignore em todos os projetos criados na máquina
 
 git commit -m "que alteração foi feita" --> Fazer um commit
 git commit -a -m "alteração feita" -- vai adicionar uma arquivo ao git e já vai fazer o commit
+git commit --> abre uma tela pra adicionar um título e uma mensagem pro corpo
 
 git log --> mostra todos os commits feitos
 git log--name-status --> mostra o que foi feito em cada commit (A = adicionado e M = modificado e D = deletado)
+git log --pretty=oneline --> coloca os commits todos organizados em 1 linha cada 
+git log --abbrev-commit --> abrevia a hash dos commits
+git log --pretty=oneline --abbrev-commit --> junta os 2 comandos acima
 
 git diff --> compara o Working Directory com o Staging Area
 git diff file.ext --> mostra as alterações feitas em um único arquivo
@@ -25,3 +32,4 @@ git diff --staged --> compara o Staging Area com o .git directory(Repositório)
 
 git rm file.ext --> remove arquivo da Staging Area
 git rm -rf <nome do diretório/> --cached --> remove o diretório do git, mas não remove dos arquivos locais
+git rm file.ext --cached --> Remove da Staging Area mas não apaga o arquivo local
