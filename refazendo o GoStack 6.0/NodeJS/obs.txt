@@ -6,4 +6,4 @@
 
 -O package-lock.json é apenas para cache
 
--As devDependecies são dependências que iremos utilizar apenas no nosso ambiente de desenvolvimento, ou seja, enquanto estamos criando a nossa aplicação (são dependencias que não iremos instalar quando jogarmos nossa aplicação online)
+-As devDependecies são dependências que iremos utilizar apenas no nosso ambiente de desenvolvimento, ou seja, enquanto estamos criando a nossa aplicação (são dependencias que não iremos instalar quando jogarmos nossa aplicação online).
