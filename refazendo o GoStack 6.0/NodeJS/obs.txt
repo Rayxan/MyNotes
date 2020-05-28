@@ -1,5 +1,9 @@
--O package.json serve para guardar a informação das dependências do nosso projeto 
+-O package.json serve para guardar a informação das dependências do nosso projeto, quando se instala um pacote do node, automaticamente é adicionada essa depenência no package.json.
+
 -O express é um micro framework que nos ajuda a lidar com rotas e views, as rotas são basicamente os endereços que o usuário irá acessar na nossa api e as views são as formas de visualização.
+
 -A pasta node modules irá armazenar as dependências
+
 -O package-lock.json é apenas para cache
+
 -As devDependecies são dependências que iremos utilizar apenas no nosso ambiente de desenvolvimento, ou seja, enquanto estamos criando a nossa aplicação (são dependencias que não iremos instalar quando jogarmos nossa aplicação online)
