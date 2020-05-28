@@ -25,6 +25,9 @@ git log--name-status --> mostra o que foi feito em cada commit (A = adicionado e
 git log --pretty=oneline --> coloca os commits todos organizados em 1 linha cada 
 git log --abbrev-commit --> abrevia a hash dos commits
 git log --pretty=oneline --abbrev-commit --> junta os 2 comandos acima
+git log --stat --> mostra com detalhes o que foi feito em cada commit
+git log -p --> mostra as alterações que foram feitas em cada arquivo dos commits
+git log -p -3 --> mostra as alterações feitas nos 3 últimos commits
 
 git diff --> compara o Working Directory com o Staging Area
 git diff file.ext --> mostra as alterações feitas em um único arquivo
