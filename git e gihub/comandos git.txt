@@ -55,6 +55,7 @@ git checkout -b OutraBrach --> cria uma nova branch e já troca pra ela
 git checkout --orphan NomeBranch --> cria uma branch vazia
 
 git merge NomeDaBranchQueQUerJuntar --> junta 2 branches
+git merge --abort --> aborta o merge
 
 git init --bare --> inicializa um repositório com arquivos de um .git
 
