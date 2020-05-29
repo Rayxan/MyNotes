@@ -28,6 +28,7 @@ git log --pretty=oneline --abbrev-commit --> junta os 2 comandos acima
 git log --stat --> mostra com detalhes o que foi feito em cada commit
 git log -p --> mostra as alterações que foram feitas em cada arquivo dos commits
 git log -p -3 --> mostra as alterações feitas nos 3 últimos commits
+git log --oneline --> coloca os commits todos organizados em 1 linha cada
 
 git diff --> compara o Working Directory com o Staging Area
 git diff file.ext --> mostra as alterações feitas em um único arquivo
@@ -35,4 +36,34 @@ git diff --staged --> compara o Staging Area com o .git directory(Repositório)
 
 git rm file.ext --> remove arquivo da Staging Area
 git rm -rf <nome do diretório/> --cached --> remove o diretório do git, mas não remove dos arquivos locais
+git rm -rf . --> remove todos os arquivos do git, mas não remove dos arquivos locais
 git rm file.ext --cached --> Remove da Staging Area mas não apaga o arquivo local
+
+ls -la --> lista todos os arquivos dentro da branch que está
+
+OBS: A nova branch é criada com os arquivos da última branch que estava sendo acessada
+
+git branch --> mostra em que branch está
+git branch NomeDaNovaBranch --> cria uma nova branch com o mesmo conteúdo da branch master
+git branch -m NovoNome --> Renomear uma branch
+git branch -D NomeBranch --> Remover uma branch criada
+
+
+git checkout NomeDaBranch --> trocar de branch
+git checkout -b OutraBrach --> cria uma nova branch e já troca pra ela
+git checkout --orphan NomeBranch --> cria uma branch vazia
+
+git merge NomeDaBranchQueQUerJuntar --> junta 2 branches
+
+git init --bare --> inicializa um repositório com arquivos de um .git
+
+1 git remote add <origin> <caminho do repository> --> linkar um projeto local a um repositório
+2 git remote -v --> para saber quais são os repositórios que estão linkados ao projeto
+3 git push origin master --> transfere tudo que tem na branch do caminho do repositório especificado (no comando 1 acima) para o repositório origin criado.
+git clone <repository> -- clona um repositório (pode ser adicionado depois a uma outra branch, utilizand o comando 3 acima)
+
+(OBS : O PUSH ENVIA DO SERVIDOR E O PULL PUCHA DO SERVIDOR, OU SEJA GARANTE QUE VOCÊ ESTARÁ COM A ÚLTIMA VERSÃO DO PROJETO).
+
+git pull origin master --> é usando pra enviar 
+
+git pull --allow-unrelated-histories --> se der erro na hora de passar oq tem em um repositório para outro
