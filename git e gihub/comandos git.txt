@@ -19,6 +19,7 @@ git config --global core.excludesfile ~/.gitignore --> ignora tudo que está no 
 git commit -m "que alteração foi feita" --> Fazer um commit
 git commit -a -m "alteração feita" -- vai adicionar uma arquivo ao git e já vai fazer o commit
 git commit --> abre uma tela pra adicionar um título e uma mensagem pro corpo
+git commit -m "O que foi feito no projeto" --amend --> adiciona alterações ao último commit e troca o nome do último commit
 
 git log --> mostra todos os commits feitos
 git log--name-status --> mostra o que foi feito em cada commit (A = adicionado e M = modificado e D = deletado)
@@ -62,7 +63,7 @@ git init --bare --> inicializa um repositório com arquivos de um .git
 3 git push origin master --> transfere tudo que tem na branch do caminho do repositório especificado (no comando 1 acima) para o repositório origin criado.
 git clone <repository> -- clona um repositório (pode ser adicionado depois a uma outra branch, utilizand o comando 3 acima)
 
-(OBS : O PUSH ENVIA DO SERVIDOR E O PULL PUCHA DO SERVIDOR, OU SEJA GARANTE QUE VOCÊ ESTARÁ COM A ÚLTIMA VERSÃO DO PROJETO).
+(OBS : O PUSH ENVIA DO SERVIDOR E O PULL PUXA DO SERVIDOR, OU SEJA GARANTE QUE VOCÊ ESTARÁ COM A ÚLTIMA VERSÃO DO PROJETO).
 
 git pull origin master --> é usando pra enviar 
 
