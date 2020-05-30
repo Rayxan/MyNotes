@@ -16,6 +16,10 @@ git congig core.editor --> saber qual é o editor base
 
 git config --global core.excludesfile ~/.gitignore --> ignora tudo que está no .gitignore em todos os projetos criados na máquina
 
+git config --global merge.tool meld --> muda o mergetool do vim para o meld
+
+git mergetool --> abre o mergetool para fazer as correções necessária no merge
+
 git commit -m "que alteração foi feita" --> Fazer um commit
 git commit -a -m "alteração feita" -- vai adicionar uma arquivo ao git e já vai fazer o commit
 git commit --> abre uma tela pra adicionar um título e uma mensagem pro corpo
@@ -30,10 +34,13 @@ git log --stat --> mostra com detalhes o que foi feito em cada commit
 git log -p --> mostra as alterações que foram feitas em cada arquivo dos commits
 git log -p -3 --> mostra as alterações feitas nos 3 últimos commits
 git log --oneline --> coloca os commits todos organizados em 1 linha cada
+git log --pretty=format:"%h - %an, %ar : %s" --> mostra os commit com informações da hash, autor, hora e título do commit
 
 git diff --> compara o Working Directory com o Staging Area
 git diff file.ext --> mostra as alterações feitas em um único arquivo
 git diff --staged --> compara o Staging Area com o .git directory(Repositório)
+git diff -w --> ignora todas as alterações que possuem espaços e tabs
+
 
 git rm file.ext --> remove arquivo da Staging Area
 git rm -rf <nome do diretório/> --cached --> remove o diretório do git, mas não remove dos arquivos locais
@@ -53,6 +60,9 @@ git branch -D NomeBranch --> Remover uma branch criada
 git checkout NomeDaBranch --> trocar de branch
 git checkout -b OutraBrach --> cria uma nova branch e já troca pra ela
 git checkout --orphan NomeBranch --> cria uma branch vazia
+git checkout NomeDoArquivo.ext --> volta o arquivo a um estágio anterior (se ainda não estiver adicionado a Staging Area)
+git checkout branchQueQuerCopiar -b Nome-Nova-Branch
+git checkout Hash-do-commit -b Nome-da-Nova-Branch
 
 git merge NomeDaBranchQueQUerJuntar --> junta 2 branches
 git merge --abort --> aborta o merge
@@ -69,3 +79,12 @@ git clone <repository> -- clona um repositório (pode ser adicionado depois a um
 git pull origin master --> é usando pra enviar 
 
 git pull --allow-unrelated-histories --> se der erro na hora de passar oq tem em um repositório para outro
+
+OBS: O stash@{0} é sempre o mais recente na hora de listar as staches
+git stash --> joga de lado as alterações que você fez e joga em uma lista para ser pego depois
+git stash list --> lista os working directories salvos no momento do comando git stash
+git stash apply stash@{0}--> volta o working diretório como estava antes do comando git stash
+git stash drop stash@{0} --> remove o stash especificado
+git stash pop --> volta o working directory e já apaga o stash
+
+
