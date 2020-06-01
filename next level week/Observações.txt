@@ -1,10 +1,22 @@
+HTML
 Configura o site para que ele caiba em tela de diversos tamanhos:
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 Site pra pegar uma fonte dahora:
 https://fonts.google.com
 
+CSS
 display: block --> pega o tamanho da linha inteira
 display: inline --> pega só o tamanho da parte da linha em que está escrito
+
+aling-items: center --> alinha items no css para que fiquem centralizados em 1 só linha
+
+justify-content: space-between --> separa items juntos em uma linha
+
+width: 90% --> quando se usa uma porcentagem no width, significa que a tag que usar vai se adaptar ao tamanho da página
+max-width: 1100 --> até onde a tag vai se adaptar de acordo com as mudanças de tamanho da página
+
+margin: 0 auto --> o primeiro valor equivale a top e o segundo equivale a left and right e o terceiro que está em branco equivale ao bottom.
+margin: 50px auto 20px 15px --> top | bottom | right | left
 
 
