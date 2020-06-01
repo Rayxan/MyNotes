@@ -24,6 +24,7 @@ git commit -m "que alteração foi feita" --> Fazer um commit
 git commit -a -m "alteração feita" -- vai adicionar uma arquivo ao git e já vai fazer o commit
 git commit --> abre uma tela pra adicionar um título e uma mensagem pro corpo
 git commit -m "O que foi feito no projeto" --amend --> adiciona alterações ao último commit e troca o nome do último commit
+git commit -m "Mensagem - fix #2" --> fechar uma Issue em específico.
 
 git log --> mostra todos os commits feitos
 git log--name-status --> mostra o que foi feito em cada commit (A = adicionado e M = modificado e D = deletado)
@@ -79,7 +80,7 @@ git push origin master --> envia tudo do git para o github, após o comando ante
 
 (OBS : O PUSH ENVIA DO SERVIDOR E O PULL PUXA DO SERVIDOR, OU SEJA GARANTE QUE VOCÊ ESTARÁ COM A ÚLTIMA VERSÃO DO PROJETO).
 
-git pull origin master --> é usando pra enviar 
+git pull origin master --> traz tudo do github pro git
 
 git pull --allow-unrelated-histories --> se der erro na hora de passar oq tem em um repositório para outro
 
@@ -90,4 +91,6 @@ git stash apply stash@{0}--> volta o working diretório como estava antes do com
 git stash drop stash@{0} --> remove o stash especificado
 git stash pop --> volta o working directory e já apaga o stash
 
-
+git branch -D <branch> --> deleta uma branch no git
+git push origin <branch> --delete --> deleta uma branch no github 
+git push origin: <branch> --> deleta uma branch no github
