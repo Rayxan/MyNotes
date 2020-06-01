@@ -1,0 +1,10 @@
+Configura o site para que ele caiba em tela de diversos tamanhos:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Site pra pegar uma fonte dahora:
+https://fonts.google.com
+
+display: block --> pega o tamanho da linha inteira
+display: inline --> pega só o tamanho da parte da linha em que está escrito
+
+
