@@ -19,4 +19,22 @@ max-width: 1100 --> até onde a tag vai se adaptar de acordo com as mudanças de
 margin: 0 auto --> o primeiro valor equivale a top e o segundo equivale a left and right e o terceiro que está em branco equivale ao bottom.
 margin: 50px auto 20px 15px --> top | bottom | right | left
 
+Arquivo .svg é uma imagem cujo conteúdo é todo escrito em formato de texto, isso é usado para a imagem poder se adaptar a telas de diversos tamanhos. 
 
+text-decoration: none --> tirar o sublinhado dos links
+
+Para referenciar todos os seletores:
+*{
+
+}
+
+border-radius: 8px --> todas as laterais das bordas vão ser assim
+
+Escurece a parte quando o mouse passa em cima
+#page-home main a:hover{
+  background-color: #2fb86e;/*Sempre colocar uma cor mais escura do que a que já está presente*/
+    
+} 
+
+dentro de alguma tag no arquivo css, se colocarmos:
+transition: 400ms, torna as transições mais suaves(passar o mouse em cima por exemplo)
