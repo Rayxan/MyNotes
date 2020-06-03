@@ -21,6 +21,17 @@ margin: 50px auto 20px 15px --> top | bottom | right | left
 
 Arquivo .svg é uma imagem cujo conteúdo é todo escrito em formato de texto, isso é usado para a imagem poder se adaptar a telas de diversos tamanhos. 
 
+Sempre que usarmos uma imagem do tipo .svg, é necessário indicar a altura e a largura da imagem, assim como o display, EX:
+#page-create-point header a span{
+    background-image: url('../assets/arrow-left.svg');
+
+    display: flex;
+
+    width: 20px;
+    height: 20px;
+}
+
+
 text-decoration: none --> tirar o sublinhado dos links
 
 Para referenciar todos os seletores:
