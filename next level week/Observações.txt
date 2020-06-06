@@ -48,4 +48,4 @@ Escurece a parte quando o mouse passa em cima
 } 
 
 dentro de alguma tag no arquivo css, se colocarmos:
-transition: 400ms, torna as transições mais suaves(passar o mouse em cima por exemplo)
+transition: 400ms, torna as transições mais suaves(passar o mouse em cima por exemplo).
