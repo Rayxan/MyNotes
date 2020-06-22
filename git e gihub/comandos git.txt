@@ -95,7 +95,7 @@ git branch -D <branch> --> deleta uma branch no git
 git push origin <branch> --delete --> deleta uma branch no github 
 git push origin: <branch> --> deleta uma branch no github
 
--PASSOS PRA COLOCAR UM REPOSITÓRIO LOCAL NO GITHUB:
+-PASSOS PRA COLOCAR UM REPOSITÓRIO LOCAL NO GITHUB: Aula 5, vídeo 2 do curso ninja
 1 cria se o repositório local
 2 git remote add <origin> <url do repositório no github>
 3 git remote set-url origin <url do repositório no git>
