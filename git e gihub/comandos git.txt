@@ -94,3 +94,9 @@ git stash pop --> volta o working directory e já apaga o stash
 git branch -D <branch> --> deleta uma branch no git
 git push origin <branch> --delete --> deleta uma branch no github 
 git push origin: <branch> --> deleta uma branch no github
+
+-PASSOS PRA COLOCAR UM REPOSITÓRIO LOCAL NO GITHUB:
+1 cria se o repositório local
+2 git remote add <origin> <url do repositório no github>
+3 git remote set-url origin <url do repositório no git>
+4 git push origin master
