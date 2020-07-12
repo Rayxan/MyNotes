@@ -57,13 +57,13 @@ public class Funcionario{
 	
 	public String print1() {
 		return "Employee: "+
-				name + ", $"+
-				String.format("%.2f",liqSalary());
+			name + ", $"+
+			String.format("%.2f",liqSalary());
 	}
 	
 	public String print2() {
 		return "Updated data: "+ 
-				name +", $" +
-				String.format("%.2f",grossSalary);
+			name +", $" +
+			String.format("%.2f",grossSalary);
 	}
 }
