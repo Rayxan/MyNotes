@@ -1,5 +1,4 @@
 //Program.java
-
 package application;
 
 import java.util.Scanner;
@@ -22,14 +21,15 @@ public class Program {
 		System.out.print("Quantity: ");
 		product.quantity = sc.nextInt();
 		
-		System.out.println(product.name + ", " + product.price + ", " + product.quantity);
+//		System.out.println(product.toString());
+		System.out.println(product);
 		
 		sc.close();
 	}
 }
 
 
-//Product.java
+//Product.java 
 
 package entities;
 
@@ -38,7 +38,7 @@ public class Product{
 	public double price;
 	public int quantity;
 	
-	public double totalValueInSctock() {
+	public double totalValueInStock() {
 		return price * quantity;
 	}
 	
@@ -48,5 +48,15 @@ public class Product{
 	
 	public  void removeProducts(int quantity) {
 		this.quantity -= quantity;
+	}
+	
+	public String toString() { //sobreposição da função toString padrão do Object
+		return name +
+			", $" +
+			String.format("%.2f", price) + 
+			", " + 
+			quantity + 
+			", $" +
+			String.format("%.2f", totalValueInStock());
 	}
 }
