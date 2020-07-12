@@ -15,7 +15,7 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		
 		Triangle x,y;
-		x = new Triangle();
+		x = new Triangle(); //Instanciacao de objetos
 		y = new Triangle();
 		
 		System.out.println("Enter the mesures of triangle X: ");
