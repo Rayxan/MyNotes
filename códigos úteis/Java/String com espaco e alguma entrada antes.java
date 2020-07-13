@@ -8,7 +8,7 @@ public class Main{
 		String s1,s2,s3;
 		
 		x = sc.nextInt();
-		sc.nextLine(); // necessário pois após a inserção do inteiro, a quebra de linha dica pendente na entrada padrão
+		sc.nextLine(); // necessário pois após a inserção do inteiro, a quebra de linha fica pendente na entrada padrão
 		s1 = sc.nextLine();
 		s2 = sc.nextLine();
 		s3 = sc.nextLine();
