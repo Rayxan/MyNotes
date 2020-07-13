@@ -12,6 +12,8 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		Product product = new Product();
+		
 		System.out.println("Enter product data:");
 		System.out.print("Name: ");
 		String name = sc.nextLine();
@@ -67,6 +69,10 @@ public class Product{
 	public Product(String name, double price) {//Método Construtor (há uma sobrecarga aqui)
 		this.name = name;
 		this.price = price;
+	}
+	
+	public Product() {
+		
 	}
 	
 	public double totalValueInStock() {
