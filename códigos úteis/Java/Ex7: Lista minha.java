@@ -1,4 +1,5 @@
 //Essa foi a forma que eu encontrei para fazer a questão, porém não é a mais indicada pra resolver esse tipo de problema da questão (ver forma do professor)
+//OBS: o professor não usou tipos primitivos nas classes, ele usou Wrapper classes
 
 //Program.java
 package course;
