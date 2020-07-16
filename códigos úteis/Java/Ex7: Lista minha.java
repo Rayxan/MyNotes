@@ -115,3 +115,8 @@ public class Funcionario{
 	}
 	
 }
+
+/*
+Nesse exercício eu não usei um atributo id na classe, e fiz uma lista de inteiros pra fazer todo o que era pedido, no exemplo do professor ele fez um atributo private id, e fez o que  a questão pedia utilizando uma lista de objetos.
+Obs: a forma que o professor fez está mais certa pois ela impossibilita a mudança do id do funcionário, já no meu código essa informação poderia ser facilmente alterada, pois não há um atributo prive id
+*/
