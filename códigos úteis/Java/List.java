@@ -43,6 +43,7 @@ public class Program{
 		List<String> result = list.stream().filter(x -> x.charAt(0) == 'K').collect(Collectors.toList());
 		//tipo stream é um tipo que aceita operações com expressões lambda
 		//como o stream não é compatível com a lista, ele tem que ser convertido pra lista com o collect
+		//filter(x -> x.charAt(0) == 'K') isso faz a procura de todos os x que começam com 'K'
 		
 		for(String x : result) {
 			System.out.println(x);
