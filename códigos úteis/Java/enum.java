@@ -20,7 +20,8 @@ public class Program{
 		
 		OrderStatus os1 = OrderStatus.DELIVERED;
 		
-		OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
+		OrderStatus os2 = OrderStatus.valueOf("DELIVERED"); // Aqui o valor é informado em forma de String. 
+								   //Obs: o valor da String tem que ser exatamente igual ao enum para o enum ser instanciado
 		
 		System.out.println(os1);
 		System.out.println(os2);
