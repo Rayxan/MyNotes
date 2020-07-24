@@ -210,6 +210,10 @@ public class HourContract{
 			this.hours = hours;
 		}
 		
+		//Aqui é aplicado o conceito de delegação
+		//Por que a função totalValue não fica diretamente na classe Worker?
+		//Pois as classes tem papéis únicos no sistema e não podem realizar todas as funções
+		//Isso é feito pra tornar o código mais sucetível a correções e mais refatorado
 		public Double totalValue() {
 			return valuePerHour * hours;
 		}
