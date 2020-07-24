@@ -80,6 +80,8 @@ public class Worker{
 	
 	//1 Worker tem vários Contracts
 	private List<HourContract> contracts = new ArrayList<>();
+	//Obs: quando houver uma composição "tem muitos", uma lista nesse caso, não é necessário incluir a lista no
+	//construtor, pois a lista tem que se iniciar vazia como feito logo acima
 	
 	public Worker() {
 		
