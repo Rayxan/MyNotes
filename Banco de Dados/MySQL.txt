@@ -7,5 +7,26 @@ sudo systemctl start mysql
 Iniciar o serviço junto ao sistema:
 sudo systemctl enable mysql
 
+Acessar o MySQL:
+sudo mysql -u root -p
+
 --------------------------------------------------------------------------
+criar o banco:
+create database NomeDoBanco;
+
+mostra os bancos já criados;
+show databases;
+
+Entra no banco especificado:
+use NomeDoBanco;
+
+Mostra as tabelas dentro do banco:
+show tables;
+
+Mostra o que tem dentro da tabela:
+describe NomeDaTabela;
+
+Mostra em que banco você está:
+status;
+
 
