@@ -20,13 +20,19 @@ show databases;
 Entra no banco especificado:
 use NomeDoBanco;
 
+Mostra em que banco você está:
+status;
+
+Cria tabelas no banco:
+create table NomeDaTabela (nome varchar(20), quant int)); 
+
 Mostra as tabelas dentro do banco:
 show tables;
 
 Mostra o que tem dentro da tabela:
 describe NomeDaTabela;
 
-Mostra em que banco você está:
-status;
+Apaga um banco:
+drop database NomeDoBanco;
 
 
