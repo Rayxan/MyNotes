@@ -1,0 +1,11 @@
+Verificar o status do serviço:
+sudo systemctl status mysql
+
+Subir o serviço:
+sudo systemctl start mysql
+
+Iniciar o serviço junto ao sistema:
+sudo systemctl enable mysql
+
+--------------------------------------------------------------------------
+
