@@ -1,4 +1,4 @@
-<b>Verificar o status do serviço:<b>
+Verificar o status do serviço:
 sudo systemctl status mysql
 
 Subir o serviço:
