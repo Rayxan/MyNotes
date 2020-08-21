@@ -1,3 +1,5 @@
+scala --> inicia as linhas de comando em scala
+
 sbt --> pra iniciar o Simple Build Tool
 compile
 test --> executar os testes implementados
