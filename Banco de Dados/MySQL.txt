@@ -35,4 +35,23 @@ describe NomeDaTabela;
 Apaga um banco:
 drop database NomeDoBanco;
 
+Insere informações na tabela (se não estiver na ordem dos itens no banco):
+insert into NomeDaTabela
+(nome, nascimento, sexo, peso, altura, nacionalidade)
+values
+('Godofredo', '1984-01-02', 'M', '78.5',  '1.83', 'Brasil');
 
+Insere informações na tabela (se estiver na ordem dos itens no banco):
+insert into NomeDaTabela values
+('Godofredo', '1984-01-02', 'M', '78.5',  '1.83', 'Brasil');
+
+Listar todos itens da tabela:
+select * from NomeDaTabela
+
+---------------------------------------------------------------------------------------------
+Comandos DDL (Data Definition Language):
+CREATE DATABASE
+CREATE TABLE
+
+Comandos DML (Data Manipulation Language):
+INSERT INTO
