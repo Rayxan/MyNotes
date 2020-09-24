@@ -1,5 +1,4 @@
 
-
       // case CaseStmt(exp, cases, elseStmt) => { //v.getvalue evalExpression.as instanceof - converte pra inteiro 
       //   while (evalCondition(exp)) {
       //     if(evalExpression(exp) == evalExpression(condition))
