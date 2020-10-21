@@ -5,3 +5,5 @@
 -Fazer o projeto de TP1 em Javascript, com css e html e banco de dados 
 
 -Aprender React e depois ver esse vídeo : https://www.youtube.com/watch?v=ZaYvwn9nBD4
+
+-Lista pro fut em React
