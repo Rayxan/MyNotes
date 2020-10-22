@@ -7,3 +7,5 @@
 -Aprender React e depois ver esse vídeo : https://www.youtube.com/watch?v=ZaYvwn9nBD4
 
 -Lista pro fut em React
+
+-Guia de treino Acad
