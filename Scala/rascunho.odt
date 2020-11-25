@@ -1,3 +1,7 @@
  : designator = Id ':=' exp = expression                                                                                      #AssignmentStmt
  | designator = Id ':=' Id '['INT']'                                                                                          #ArrayIndex
  | designator = Id ':=' designator = Id '.' designator = Id                                                                   #Record
+
+ : designator = Id ':=' exp = expression                                                                                      #AssignmentStmt
+ | designator = Id '['INT']' ':=' exp = expression                                                                            #ArrayIndex
+ | designator = Id '.' designator = Id ':=' exp = expression                                                                  #Record
