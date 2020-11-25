@@ -2,6 +2,11 @@
  | designator = Id ':=' Id '['INT']'                                                                                          #ArrayIndex
  | designator = Id ':=' designator = Id '.' designator = Id                                                                   #Record
 
+
+
+De acordo com a obs do professor, o lado direito nunca mudará
+sempre será uma expressão, só o lado direito mudará (2:50)
+
  : designator = Id ':=' exp = expression                                                                                      #AssignmentStmt
  | designator = Id '['INT']' ':=' exp = expression                                                                            #ArrayIndex
  | designator = Id '.' designator = Id ':=' exp = expression                                                                  #Record
