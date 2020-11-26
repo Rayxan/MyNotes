@@ -10,3 +10,10 @@ sempre será uma expressão, só o lado direito mudará (2:50)
  : designator = Id ':=' exp = expression                                                                                      #AssignmentStmt
  | designator = Id '['INT']' ':=' exp = expression                                                                            #ArrayIndex
  | designator = Id '.' designator = Id ':=' exp = expression                                                                  #Record
+
+
+EXEMPLO DO PROFESSOR
+
+Designator :  Id                                             # VARIABLE
+           |  Id ‘[‘ Ind ‘]’                                 #  ArrayIndex 
+           |  Designator ‘.’ Designator                      #  Record
