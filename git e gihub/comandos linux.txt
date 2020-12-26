@@ -7,3 +7,4 @@ echo "hello world" > a.txt - escreve a frase em um arquivo a.txt já criado ante
 echo "jojo e dio" >> a.txt - escreve abaixo da última linha escrita
 cat a.txt - mostra o que tem dentro do arquivo
 
+PS1="${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\W \[\033[32m\]\$\[\033[00m\] " -->> encurtar diretórios no terminal
