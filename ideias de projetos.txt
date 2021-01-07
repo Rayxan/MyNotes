@@ -9,3 +9,7 @@
 -Lista pro fut em React
 
 -Guia de treino Acad
+
+-Animes e mangás status
+
+-fifa fut
