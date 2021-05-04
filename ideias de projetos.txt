@@ -13,3 +13,5 @@
 -Animes e mangás status
 
 -fifa fut
+
+-leitura dinâmica de história com músicas
